@@ -7,7 +7,7 @@ author = "Matthias Franken"
 
 ![test](/img/header_test.jpg)
 
-I am a postdoctoral researcher at the [motor neuroscience lab](https://www.psych.mcgill.ca/labs/mcl/Lab-Home.htm) at McGill University (Montreal, Canada), working with David Ostry. My core research interests is focused on the neuroscience of speech production and perception, and their interaction.
+I am a postdoctoral researcher at the [motor neuroscience lab](https://www.psych.mcgill.ca/labs/mcl/Lab-Home.htm) at McGill University (Montreal, Canada), working with [David Ostry](https://www.psych.mcgill.ca/labs/mcl/Davidostry.htm). My core research interests is focused on the neuroscience of speech production and perception, and their interaction.
 
 In order to investigate the sensory-motor aspects of speech, I use a variety of experimental methods, including psychophysical and acoustic measures, electrophysiology (MEG, EEG) and non-invasive brain stimulation (TMS). Current projects include the role of the somatosensory system in speech motor learning and perception, and the contribution of sensory feedback to the generation of a sense of agency over speech.
 

@@ -5,8 +5,8 @@
   {{.name | safeHTML}},
   <i>{{ .outlet }}</i>{{if isset . "volume"}}, {{.volume}} {{ end }}{{if isset . "issue"}} ({{.issue}}), {{ end }}
   {{if isset . "pages"}}pp. {{.pages}}{{end}}
-  {{if isset . "doi"}}<a href = "https://www.doi.org/{{.doi}}">DOI: {{.doi}}</a>{{ end }}
-  {{if isset . "article"}}<a href="pdfs/{{.article}}"><i class="fa fa-file" aria-hidden="true"></i></a>{{ end }}
+  {{if isset . "doi"}}<a href = "https://www.doi.org/{{.doi}}" target="_blank">DOI: {{.doi}}</a>{{ end }}
+  {{if isset . "article"}}<a href="pdfs/{{.article}}"  target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a>{{ end }}
   </li><p>
 {{else if (eq .type "poster")}}
   <li>
@@ -14,7 +14,7 @@
   ({{.year}}).
   {{.name | safeHTML}},
   poster presented at {{.conference}}, {{.location}}, {{.date}}.
-  {{if isset . "poster"}}<a href="pdfs/{{.article}}"><i class="fa fa-file" aria-hidden="true"></i></a>{{ end }}
+  {{if isset . "poster"}}<a href="pdfs/{{.article}}"  target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a>{{ end }}
   </li><p>
 {{else if (eq .type "conftalk")}}
   <li>
