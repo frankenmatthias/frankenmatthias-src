@@ -1,0 +1,11 @@
+{{ define "content" }}
+<section class = "container centered">
+  <ul>
+    <img src="/img/mtl_banner.jpg" alt="">
+    <h1>{{.Title}}</h1>
+{{ range .Site.Data.publications }}
+  {{partial "article.html" . }}
+{{ end }}
+</ul>
+</section>
+{{ end }}

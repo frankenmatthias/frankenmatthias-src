@@ -1,0 +1,72 @@
+# careers section data
+# if you don't have language feature(language.yml is empty), ignore "i18n" items
+- name:
+    detail: McGill University, Montreal, Canada
+  desc:
+    detail: Motor Neuroscience Lab<br>PI&#58; David Ostry
+  date:
+    detail: Jan. 2021
+  job:
+    detail: Postdoctoral Researcher
+  icon: fa-plus-square
+  present: true
+
+- name:
+    detail: Ghent University, Belgium
+    i18n: company_a
+  desc:
+    detail: Dept. of Experimental Psychology <br>PI&#58; Robert J. Hartsuiker
+    i18n: company_a_desc
+  date:
+    detail: Oct. 2017 - Dec. 2020
+    i18n: company_a_date
+  job:
+    detail: Postdoctoral Researcher
+    i18n: company_a_job
+  icon: fa-plus-square
+  present: false
+
+- name:
+    detail: Radboud University, Nijmegen, the Netherlands
+    i18n: company_b
+  desc:
+    detail: PhD <br/>Donders Institute for Brain, Cognition and Behaviour <br>Promotors&#58; Peter Hagoort & James M. McQueen
+    i18n: company_b_desc
+  date:
+    detail: Sep. 2013 - Sep. 2017
+    i18n: company_b_date
+  job:
+    detail: PhD candidate
+    i18n: company_b_job
+  icon: fa-plus-square
+  present: false
+
+- name:
+    detail: Radboud University, Nijmegen, the Netherlands
+    i18n: company_b
+  desc:
+    detail: MSc Cognitive Neuroscience
+    i18n: company_b_desc
+  date:
+    detail: Sep. 2011 - Sep. 2013
+    i18n: company_b_date
+  job:
+    detail: MSc Cognitive Neuroscience
+    i18n: company_b_job
+  icon: fa-plus-square
+  present: false
+
+- name:
+    detail: Leiden University, the Netherlands
+    i18n: company_b
+  desc:
+    detail: BA Linguistics
+    i18n: company_b_desc
+  date:
+    detail: Sep. 2008 - Sep. 2011
+    i18n: company_b_date
+  job:
+    detail: BA Linguistics
+    i18n: company_b_job
+  icon: fa-plus-square
+  present: false

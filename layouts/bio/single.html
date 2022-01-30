@@ -1,0 +1,10 @@
+{{ define "content" }}
+<section class = "container centered">
+  <ul>
+    <img src="/img/defense.jpg" alt="PhD defense">
+    <h1><span data-i18n="career.my_career">{{ .Title }}</span></h1>
+    Check out my <a href="CV.pdf">CV</a> for more detail (last updated Jan 18, 2022).
+  {{partial "timeline.html" . }}
+</ul>
+</section>
+{{ end }}

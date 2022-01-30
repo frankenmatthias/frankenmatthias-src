@@ -1,0 +1,33 @@
+{{ if (or (eq .type "journal") (eq .type "proceedings"))}}
+  <li>
+  {{.authors | safeHTML }}
+  ({{.year}}).
+  {{.name | safeHTML}},
+  <i>{{ .outlet }}</i>{{if isset . "volume"}}, {{.volume}} {{ end }}{{if isset . "issue"}} ({{.issue}}), {{ end }}
+  {{if isset . "pages"}}pp. {{.pages}}{{end}}
+  {{if isset . "doi"}}<a href = "https://www.doi.org/{{.doi}}">DOI: {{.doi}}</a>{{ end }}
+  {{if isset . "article"}}<a href="pdfs/{{.article}}"><i class="fa fa-file" aria-hidden="true"></i></a>{{ end }}
+  </li><p>
+{{else if (eq .type "poster")}}
+  <li>
+  {{.authors | safeHTML }}
+  ({{.year}}).
+  {{.name | safeHTML}},
+  poster presented at {{.conference}}, {{.location}}, {{.date}}.
+  {{if isset . "poster"}}<a href="pdfs/{{.article}}"><i class="fa fa-file" aria-hidden="true"></i></a>{{ end }}
+  </li><p>
+{{else if (eq .type "conftalk")}}
+  <li>
+  {{.authors | safeHTML }}
+  ({{.year}}).
+  {{.name | safeHTML}},
+  talk presented at {{.conference}}, {{.location}}, {{.date}}.
+  </li><p>
+{{else if (eq .type "invtalk")}}
+  <li>
+  {{.authors | safeHTML }}
+  ({{.year}}).
+  {{.name | safeHTML}},
+  talk presented at {{.institute}}, {{.location}}, {{.date}}.
+  </li><p>
+{{end}}

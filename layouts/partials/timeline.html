@@ -1,0 +1,21 @@
+<div class="container" id="i18_career">
+
+    <div class="row features-block">
+        <div class="col-lg-12">
+            <div id="vertical-timeline" class="vertical-container light-timeline center-orientation">
+            {{ range $index, $element := .Site.Data.careers }}
+                <div class="vertical-timeline-block">
+                    <div class="vertical-timeline-icon navy-bg-present wow rotateIn">
+                    </div>
+                    <div class="vertical-timeline-content wow {{ if eq $index 1 }} rotateInUpRight {{ else }} rotateInUpLeft {{ end }}">
+                        <h2><span data-i18n=".{{ .name.i18n }}">{{ .name.detail | safeHTML }}</span></h2>
+                        <p><span data-i18n=".{{ .desc.i18n }}">{{ .desc.detail | safeHTML }} </span></p>
+                        <span class="vertical-date"><span data-i18n="career.{{ .date.i18n }}"> {{ .date.detail | safeHTML }} </span>
+                        <br/> <small><span data-i18n=".{{ .job.i18n }}">{{ .job.detail | safeHTML }}</span></small> </span>
+                    </div>
+                </div>
+            {{ end }}
+            </div>
+        </div>
+    </div>
+</div>

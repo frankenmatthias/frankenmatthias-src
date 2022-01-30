@@ -1,0 +1,74 @@
+baseurl = "https://frankenmatthias.github.io"
+title = "Matthias Franken"
+theme = "hugo-coder"
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+googleAnalytics = "UA-148484430-1"
+
+[params]
+  author = "Matthias Franken"
+  info = "Speech Neuroscientist"
+  description = "Matthias Franken's website"
+  keywords = "Speech,Neuroscience,Music,Language"
+  avatarURL = "img/avatar.jpg"
+  colorscheme = "dark"
+  customSCSS = ["scss/custom.scss"]
+
+[[params.social]]
+  name = "ResearchGate"
+  icon = "fa fa-researchgate fa-2x"
+  weight = 1
+  target = "_blank"
+  url = "https://www.researchgate.net/profile/Matthias-Franken"
+
+[[params.social]]
+    name = "ORCiD"
+    icon = "fa fa-orcid fa-2x"
+    weight = 2
+    target = "_blank"
+    url = "https://orcid.org/0000-0002-6133-8756"
+
+[[params.social]]
+  name = "Twitter"
+  icon = "fa fa-twitter fa-2x"
+  weight = 3
+  target = "_blank"
+  url = "https://twitter.com/MatthiasFranken"
+
+  [[params.social]]
+    name = "Google"
+    icon = "fa fa-google fa-2x"
+    weight = 4
+    target = "_blank"
+    url = "https://scholar.google.com/citations?user=W8RcfMMAAAAJ&hl=en"
+
+  [[params.social]]
+    name = "Mail"
+    icon = "fa fa-envelope fa-2x"
+    weight = 5
+    target = "_blank"
+    url = "mailto:matthias.franken@mcgill.ca"
+
+[[menu.main]]
+    name = "Research"
+    weight = 1
+    url = "about/"
+[[menu.main]]
+  name = "Publications"
+  weight = 2
+  url = "publications/"
+[[menu.main]]
+  name = "Presentations"
+  weight = 3
+  url = "presentations/"
+[[menu.main]]
+  name = "Bio"
+  weight = 4
+  url = "bio/"
