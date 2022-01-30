@@ -14,7 +14,7 @@ googleAnalytics = "UA-148484430-1"
 
 [params]
   author = "Matthias Franken"
-  info = "Speech Neuroscientist"
+  info = ["PostDoc @ McGill" "Speech Neuroscience"]
   description = "Matthias Franken's website"
   keywords = "Speech,Neuroscience,Music,Language"
   avatarURL = "img/avatar.jpg"
