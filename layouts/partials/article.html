@@ -14,7 +14,7 @@
   ({{.year}}).
   {{.name | safeHTML}},
   poster presented at {{.conference}}, {{.location}}, {{.date}}.
-  {{if isset . "poster"}}<a href="pdfs/{{.article}}"  target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a>{{ end }}
+  {{if isset . "poster"}}<a href="{{.poster}}"  target="_blank"><i class="fa fa-file" aria-hidden="true"></i></a>{{ end }}
   </li><p>
 {{else if (eq .type "conftalk")}}
   <li>
