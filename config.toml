@@ -16,10 +16,14 @@ googleAnalytics = "UA-148484430-1"
   author = "Matthias Franken"
   info = ["PostDoc @ McGill" "Speech Neuroscience"]
   description = "Matthias Franken's website"
-  keywords = "Speech,Neuroscience,Music,Language"
+  keywords = "Speech,Neuroscience,Music,Language,Speech production,Speech Perception,Magnetoencephalography,MEG,TMS,Transcranial magnetic stimulation,EEG,electroencephalography,auditory feedback,altered auditory feedback,cognitive neuroscience,psycholinguistics,neurolinguistics,ugent,mcgill,radboud,postdoc,agency,sense of agency"
   avatarURL = "img/avatar.jpg"
   colorscheme = "dark"
   customSCSS = ["scss/custom.scss"]
+  hidecolorschemetoggle = true
+
+[params.goatCounter]
+  code = "frankenmatthias"
 
 [[params.social]]
   name = "ResearchGate"

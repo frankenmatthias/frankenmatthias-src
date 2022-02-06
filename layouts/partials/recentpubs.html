@@ -1,1 +1,10 @@
-{{ .Title }}
+</br></br></br>
+<h3> Recent Publications: </h3>
+
+{{range $index, $element := .Site.Data.publications}}
+{{if (lt $index 2)}}
+    {{ partial "article.html" .}}
+{{ end }}
+{{ end }}
+
+<a class="btn" href="/publications">See full list...</a>
