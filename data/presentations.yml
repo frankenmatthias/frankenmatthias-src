@@ -2,6 +2,15 @@
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
 
+- name: Somatosensory and motor cortex both causally contribute to speech motor learning
+  i18n: jalpc
+  type: conftalk
+  conference: Neural Control of Movement
+  year: 2022
+  location: Dublin, Ireland
+  authors: <b>Franken, M. K.</b>, Manning, T. C., Williams, A., & Ostry, D. J.
+  date: 24-29 July 2022
+
 - name: Drifting pitch awareness after exposure to pitch-shifted auditory feedback
   i18n: jalpc
   type: poster
