@@ -21,7 +21,7 @@
   {{.authors | safeHTML }}
   ({{.year}}).
   {{.name | safeHTML}},
-  talk presented at {{.conference}}, {{.location}}, {{.date}}.
+  talk{{if isset . "future"}} to be{{ end }} presented at {{.conference}}, {{.location}}, {{.date}}.
   </li><p>
 {{else if (eq .type "invtalk")}}
   <li>
