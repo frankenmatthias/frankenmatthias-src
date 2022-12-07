@@ -4,23 +4,21 @@
 
 - name: Primary somatosensory cortex causally contributes to speech motor learning
   i18n: jalpc
-  type: conftalk
+  type: poster
   conference: Society for Neuroscience
   year: 2022
   location: San Diego, CA, USA
   authors: <b>Franken, M. K.</b>, Manning, T. C., Williams, A., & Ostry, D. J.
   date: 11-16 November 2022
-  future: no
 
 - name: Primary somatosensory cortex causally contributes to speech motor learning
   i18n: jalpc
-  type: conftalk
+  type: poster
   conference: Speech Motor Control
   year: 2022
   location: Groningen, the Netherlands
   authors: <b>Franken, M. K.</b>, Manning, T. C., Williams, A., & Ostry, D. J.
   date: 24-27 August 2022
-  future: no
 
 - name: Somatosensory and motor cortex both causally contribute to speech motor learning
   i18n: jalpc
@@ -30,7 +28,6 @@
   location: Dublin, Ireland
   authors: <b>Franken, M. K.</b>, Manning, T. C., Williams, A., & Ostry, D. J.
   date: 24-29 July 2022
-  future: no
 
 - name: Drifting pitch awareness after exposure to pitch-shifted auditory feedback
   i18n: jalpc
