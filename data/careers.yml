@@ -1,15 +1,26 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
+    detail: Novo, Nijmegen, Netherlands
+  desc:
+    detail: Speech technology in educational settings
+  date:
+    detail: Feb. 2023
+  job:
+    detail: Speech Scientist
+  icon: fa-plus-square
+  present: true
+
+- name:
     detail: McGill University, Montreal, Canada
   desc:
     detail: Motor Neuroscience Lab<br>PI&#58; David Ostry
   date:
-    detail: Jan. 2021
+    detail: Jan. 2021 - Jan. 2023
   job:
     detail: Postdoctoral Researcher
   icon: fa-plus-square
-  present: true
+  present: false
 
 - name:
     detail: Ghent University, Belgium
