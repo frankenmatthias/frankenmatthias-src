@@ -1,11 +1,13 @@
 +++
-title = "Research"
-description = "Neuroscience of Speech"
+title = "About"
+description = "Speech science"
 date = "2022-01-29"
 author = "Matthias Franken"
 +++
 
 ![test](/img/header_test.jpg)
+
+Since February 2023, I am a speech scientist at [NovoLanguage](https://www.novo-learning.com/), where we develop AI technology to support language and literacy education. Our software provides detailed pronunciation feedback and assessment to children learning to read as well as second language learners.
 
 Until January 2023, I was a postdoctoral researcher at the [motor neuroscience lab](https://www.psych.mcgill.ca/labs/mcl/Lab-Home.htm) at McGill University (Montreal, Canada), working with [David Ostry](https://www.psych.mcgill.ca/labs/mcl/Davidostry.htm). My core research interests was focused on the neuroscience of speech production and perception, and their interaction.
 

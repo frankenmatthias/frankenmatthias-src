@@ -39,13 +39,6 @@ googleAnalytics = "UA-148484430-1"
     target = "_blank"
     url = "https://orcid.org/0000-0002-6133-8756"
 
-[[params.social]]
-  name = "Twitter"
-  icon = "fa fa-twitter fa-2x"
-  weight = 3
-  target = "_blank"
-  url = "https://twitter.com/MatthiasFranken"
-
   [[params.social]]
     name = "Google"
     icon = "fa fa-google fa-2x"
@@ -61,7 +54,7 @@ googleAnalytics = "UA-148484430-1"
     url = "mailto:matthias.franken@mcgill.ca"
 
 [[menu.main]]
-    name = "Research"
+    name = "About"
     weight = 1
     url = "about/"
 [[menu.main]]

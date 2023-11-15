@@ -1,13 +1,24 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+
+- name: Do Not Cut Off Your Tail&#58; A Mega-Analysis of Responses to Auditory Perturbation Experiments
+  type: journal
+  outlet: Journal of Speech, Language, and Hearing Research
+  year: 2023
+  volume: 66
+  issue: 11
+  pages: 4315-4331
+  authors: Hilary E. Miller, Elaine Kearney, Alfonso Nieto-Castañón, Riccardo Falsini, Defne Abur, Alexander Acosta, Sara-Ching Chao, Kimberly L Dahl, <b>Matthias Franken</b>, Elizabeth S Heller Murray, Fatemeh Mollaei, Caroline A Niziolek, Benjamin Parrell, Tyler Perrachione, Dante J Smith, Cara E Stepp, Nicole Tomassi, Frank H Guenther
+  doi: 10.1044/2023_JSLHR-23-00315
+
 - name: Towards a somatosensory theory of speech perception
   type: journal
   outlet: Journal of Neurophysiology
   year: 2022
   volume: 128
   issue: 6
-  pqges: 1683-1695
+  pages: 1683-1695
   authors: <b>Franken, M. K.</b>, Liu, B. C., & Ostry, D. J.
   doi: 10.1152/jn.00381.2022
 
